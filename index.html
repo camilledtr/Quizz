@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizz JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="title"><span>Quizz</span> Culture générale.<span class="v-icon"></span></div>
+
+  <form>
+    <div class="container">
+      <legend>Qui est sacré empereur de France le 2 décembre 1804 ?</legend>
+
+      <div class="container-rep">
+
+        <div class="rep">
+          <input type="radio" id="clovis" name="empereur" value="a" checked>
+          <label for="clovis">Clovis</label>
+        </div>
+
+        <div class="rep">
+          <input type="radio" id="lincoln" name="empereur" value="b">
+          <label for="lincoln">Abraham Lincoln</label>
+        </div>
+
+        <div class="rep">
+          <input type="radio" id="bonaparte" name="empereur" value="c">
+          <label for="bonaparte">Napoléon Bonaparte</lab>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container">
+      <legend>Quand la déclaration d'indépendance des E-U a-t-elle été votée ?</legend>
+
+      <div class="container-rep">
+
+        <div class="rep">
+          <input type="radio" id="76" name="indep" value="a" checked>
+          <label for="76">4 juillet 1776</label>
+        </div>
+
+        <div class="rep">
+          <input type="radio" id="56" name="indep" value="b">
+          <label for="56">18 avril 1856</label>
+        </div>
+
+        <div class="rep">
+          <input type="radio" id="25" name="indep" value="c">
+          <label for="25">30 juin 1925</lab>
+        </div>
+
+      </div>
+
+    </div>
+
+    <button>Valider <span class="v-icon"></span></button>
+
+    <div class="score"></div>
+
+  </form>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
